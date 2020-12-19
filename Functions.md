@@ -2,10 +2,11 @@ In Haskell, a function is a mapping that takes one or more arguments and produce
 For example, 
 a function double that takes a number x as its argument, and produces the result x + x, can be defined by the following equation:
  <br>
-`double x = x + x`
+ ### `double x = x + x`
 <ol>
   <li> A function double that takes a number x as its argument</li>
   <li> Produces the result x + x </li>
+ <li> When a function is applied to actual arguments, the result is obtained by substituting these arguments into the body of the function in place of the argument names. </li>
 
 </li>
 </ol>
