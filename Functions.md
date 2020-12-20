@@ -70,6 +70,13 @@ a function double that takes a number x as its argument, and produces the result
 <li> There is no restrictions on the types of the arguments  and results of a function</li>
 </ol>
 
+<br>
+<br>
+
+#### ` T1 -> T2 for the type of all functions that map arguments of type T1 to results of type T2.`
+
+Excerpt From: Hutton, Graham. “Programming in Haskell (9781316876152).” Apple Books. 
+
 #####  “every function has a type that specifies the nature of its arguments and results, which is automatically inferred from the definition of the function”
 
 
