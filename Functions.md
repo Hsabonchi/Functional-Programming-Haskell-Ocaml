@@ -83,13 +83,14 @@ a function double that takes a number x as its argument, and produces the result
   <li> A function double that takes a number x as its argument</li>
   <li> Produces the result x + x </li>
  <li> When a function is applied to actual arguments, the result is obtained by substituting these arguments into the body of the function in place of the argument names. </li>
-</li>
+<li> Function type can be omitted  </li>
 </ol>
 
 #####  “every function has a type that specifies the nature of its arguments and results, which is automatically inferred from the definition of the function”
 
-  <p> function type ccould be optional </p>
+
   
+ ---
   
   <p><img src="Resources/avgList.png" height="150"> </p>
 
