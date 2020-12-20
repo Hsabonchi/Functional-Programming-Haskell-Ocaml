@@ -52,7 +52,7 @@ Reverse a list:
 
 
 
-
+- “A function is a mapping from arguments of one type to results of another type. ”
 
 In Haskell, a function is a mapping that takes one or more arguments and produces a single result, and is defined using an equation that gives a name for the function, a name for each of its arguments, and a body that specifies how the result can be calculated in terms of the arguments.
 
@@ -67,7 +67,7 @@ a function double that takes a number x as its argument, and produces the result
   <li> A function double that takes a number x as its argument</li>
   <li> Produces the result x + x </li>
  <li> When a function is applied to actual arguments, the result is obtained by substituting these arguments into the body of the function in place of the argument names. </li>
-<li> Function type can be omitted  </li>
+<li> There is no restrictions on the types of the arguments  and results of a function</li>
 </ol>
 
 #####  “every function has a type that specifies the nature of its arguments and results, which is automatically inferred from the definition of the function”
