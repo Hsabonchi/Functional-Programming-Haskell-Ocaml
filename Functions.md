@@ -90,7 +90,7 @@ a function double that takes a number x as its argument, and produces the result
 
   <p> function type ccould be optional </p>
   
-  <img href="">
+  <img href="Resources/avgList.png">
 
 
 
