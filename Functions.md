@@ -1,23 +1,7 @@
 #### How to install Haskell on  macOS
  - [Install Haskell on macOS](https://medium.com/analytics-vidhya/install-haskell-on-macos-e5677ab620b5)
- 
- 
-
----
-
-<p> Haskell scripts usually have a  <strong> .hs suffix on their filename </strong> to differentiate them from other kinds of files. </p>
-
-
-
-
-
-
-
-
-
-
-
-
+ <br>
+ <p> Haskell scripts usually have a  <strong> .hs suffix on their filename </strong> to differentiate them from other kinds of files. </p>
 
 
 
