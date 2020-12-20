@@ -88,16 +88,11 @@ a function double that takes a number x as its argument, and produces the result
 
 #####  “every function has a type that specifies the nature of its arguments and results, which is automatically inferred from the definition of the function”
 
-<p> function type ccould be optional </p>
-
-<pre>
-n= a  `div` length xs
- where
-    a = 10
-    xs = [1,2,3,4,5]
+  <p> function type ccould be optional </p>
+  
+  <img href="">
 
 
-<pre>
 
 
 
