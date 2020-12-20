@@ -1,7 +1,27 @@
+#### How to install Haskell on  macOS
+ - [Install Haskell on macOS](https://medium.com/analytics-vidhya/install-haskell-on-macos-e5677ab620b5)
+ 
+ 
+
+---
+
+<p> Haskell scripts usually have a  <strong> .hs suffix on their filename </strong> to differentiate them from other kinds of files. </p>
 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+---
 <pre>
 commonly used library functions on lists are illustrated below.
 Select the first element of a non-empty list:
@@ -36,6 +56,8 @@ Reverse a list:
 [5,4,3,2,1] 
 </pre>
 
+
+---
 
 
 
