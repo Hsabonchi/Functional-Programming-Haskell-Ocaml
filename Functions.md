@@ -91,7 +91,7 @@ a function double that takes a number x as its argument, and produces the result
   <p> function type ccould be optional </p>
   
   
-  <p><img href="Resources/avgList.png"> </p>
+  <p><img src="Resources/avgList.png" height="150"> </p>
 
 
 
