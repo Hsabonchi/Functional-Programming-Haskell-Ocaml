@@ -6,4 +6,4 @@ Haskell Tutorial : Learn you a Haskell-Video|[Haskell Tutorial : Learn you a Has
 Real World Haskell-book|[Real World Haskell](http://book.realworldhaskell.org/)
 Lambda Calculus -Video|[Lambda Calculus](https://www.youtube.com/watch?v=eis11j_iGMs)
 Curried Functions-Video|[Curried Functions](https://www.youtube.com/watch?v=psmu_VAuiag&feature=youtu.be)
-
+Introduction into Programming Paradigms-Video|[Curried Functions](https://www.youtube.com/watch?v=sqV3pL5x8PI)
