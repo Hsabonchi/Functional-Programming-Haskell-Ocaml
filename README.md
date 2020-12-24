@@ -8,3 +8,4 @@ Lambda Calculus -Video|[Lambda Calculus](https://www.youtube.com/watch?v=eis11j_
 Curried Functions-Video|[Curried Functions](https://www.youtube.com/watch?v=psmu_VAuiag&feature=youtu.be)
 Introduction into Programming Paradigms-Video|[Programming Paradigms](https://www.youtube.com/watch?v=sqV3pL5x8PI)
 Functional Programming - Course|[Functional Programming](http://www.cs.uu.nl/docs/vakken/fp/2019/lectures.html)
+ Advanced Functional Programming - Course|[ Advanced Functional Programming(https://web.engr.oregonstate.edu/~walkiner/teaching/cs583-sp20/)
