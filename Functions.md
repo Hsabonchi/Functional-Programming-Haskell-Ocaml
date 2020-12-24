@@ -1,7 +1,7 @@
 #### How to install Haskell on  macOS
  - [Install Haskell on macOS](https://medium.com/analytics-vidhya/install-haskell-on-macos-e5677ab620b5)
  <br>
- <p>  Haskell scripts usually have a  <strong> .hs suffix on their filename </strong> to differentiate them from other kinds of files. </p>
+ <p>  Haskell scripts usually have a .hs suffix on their filename </strong> to differentiate them from other kinds of files. </p>
 
 
 
@@ -45,11 +45,11 @@ Reverse a list:
 
 
 
-`In haskell variable names must start with a lowercase letter. Anything that is uppercase is interpreted by the compiler as a Data Constructor</strong> `
+- <strong>In haskell variable names must start with a lowercase letter. Anything that is uppercase is interpreted by the compiler as a Data Constructor</strong> 
 <br>
 <br>
 
-- “<strong> A function is a mapping from arguments of one type to results of another type. ”
+- “ A function is a mapping from arguments of one type to results of another type. ”
 
 In Haskell, a function is a mapping that takes one or more arguments and produces a single result, and is defined using an equation that gives a name for the function, a name for each of its arguments, and a body that specifies how the result can be calculated in terms of the arguments.
 
