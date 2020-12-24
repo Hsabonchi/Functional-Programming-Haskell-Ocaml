@@ -7,6 +7,8 @@
 
 ---
 <pre>
+> [1 .. 10] creates a list from 1 to 10
+
 commonly used library functions on lists are illustrated below.
 Select the first element of a non-empty list:
 > head [1,2,3,4,5]
