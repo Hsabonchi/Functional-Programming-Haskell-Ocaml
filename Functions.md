@@ -1,7 +1,7 @@
 #### How to install Haskell on  macOS
  - [Install Haskell on macOS](https://medium.com/analytics-vidhya/install-haskell-on-macos-e5677ab620b5)
  <br>
- <p> Haskell scripts usually have a  <strong> .hs suffix on their filename </strong> to differentiate them from other kinds of files. </p>
+ <p> <strong> Haskell scripts usually have a  <strong> .hs suffix on their filename </strong> to differentiate them from other kinds of files. </strong></p>
 
 
 
@@ -45,12 +45,9 @@ Reverse a list:
 
 
 
-
-
-
-
-
-
+`In haskell variable names must start with a lowercase letter. Anything that is uppercase is interpreted by the compiler as a Data Constructor `
+<br>
+<br>
 
 - “A function is a mapping from arguments of one type to results of another type. ”
 
