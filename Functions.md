@@ -126,6 +126,21 @@ Excerpt From: Hutton, Graham. “Programming in Haskell (9781316876152).” Appl
    | otherwise = n
 </pre>
  
+ ---
+ 
+ ### List comprehensions
+  <pre>
+  [ expr | x <- list ]
+  
+  Succint notation for building new lists from old ones
+  addone :: Num a => [a] -> [a]
+  addone xs = [x + 1 | x <- xs]
+  
+  ▶ “For each x in xs, return x + 1”
+  ▶ Very similar to mathematical notation
+  {x + 1 | x ∈ xs}
+
+</pre>
 
 
 
@@ -140,7 +155,4 @@ Excerpt From: Hutton, Graham. “Programming in Haskell (9781316876152).” Appl
 
 
 
-
-
-
-Excerpt From: Hutton, Graham. “Programming in Haskell (9781316876152).” Apple Books. 
+Credit to Hutton, Graham. “Programming in Haskell (9781316876152).” Apple Books. 
