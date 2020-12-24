@@ -93,9 +93,25 @@ Excerpt From: Hutton, Graham. “Programming in Haskell (9781316876152).” Appl
  ---
   
   <p><img src="Resources/avgList.png" height="150"> </p>
+  
 
+---
 
+<pre>
+Conditionals
+-- if condition then expression else expression.
 
+ ▶ condition must be a Bool expression.
+ ▶ You always need both branches.
+ ▶ What would you return if one is missing?.
+ ▶ Remember, everything is an expression.
+
+ 
+ `abs n = if n < 0
+     then -n 
+     else n`
+
+ </pre>
 
 
 
