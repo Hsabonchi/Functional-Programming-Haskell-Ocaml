@@ -96,9 +96,9 @@ Excerpt From: Hutton, Graham. “Programming in Haskell (9781316876152).” Appl
   
 
 ---
-
+### Conditionals
 <pre>
-Conditionals
+
 -- if condition then expression else expression.
 
  ▶ condition must be a Bool expression.
@@ -112,9 +112,20 @@ Conditionals
      else n`
 
  </pre>
+ 
+---
+### Guards
+<pre>
 
-
-
+   Instead of conditionals, we use equations with guards
+   ▶ Each guard defines a condition over the arguments
+   ▶ These conditions are checked in order
+   ▶ The first satisfiable one is applied
+   ▶ We typically use otherwise for the default case
+   abs n | n < 0 = -n
+   | otherwise = n
+</pre>
+ 
 
 
 
