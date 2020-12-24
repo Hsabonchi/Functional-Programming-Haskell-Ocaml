@@ -9,6 +9,16 @@
 <pre>
 > [1 .. 10] creates a list from 1 to 10
 
+   ▶ null tells whether a list is empty
+   ▶ head returns the first element in a list
+   ▶ tail returns all but the first element
+   > null [1,2,3]
+   False
+   > head [1,2,3]
+   1
+   > tail [1,2,3]
+   [2,3]
+
 commonly used library functions on lists are illustrated below.
 Select the first element of a non-empty list:
 > head [1,2,3,4,5]
