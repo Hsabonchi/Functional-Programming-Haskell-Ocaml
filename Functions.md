@@ -2,6 +2,11 @@
  - [Install Haskell on macOS](https://medium.com/analytics-vidhya/install-haskell-on-macos-e5677ab620b5)
  <br>
  <p>  Haskell scripts usually have a .hs suffix on their filename </strong> to differentiate them from other kinds of files. </p>
+ <p>In Haskell, we do not have a return statement, the last expression that evaluated is  what we return</p>
+ <p> every value in haskell has a type</p>
+ <p> Function has its own type</p>
+ <p> let binding, when we bind the result of some expression to a name and produce a result</p>
+ <p> There is no loop in haskell instead  recursion</p>
 
 
 
