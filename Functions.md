@@ -12,6 +12,12 @@
 
 ---
 <pre>
+ ##### List can be of one type
+ 
+ 
+> init [1,2,3,4]
+   ▶ which give you a copy of that list where the last element removed.
+  
 > [1 .. 10] creates a list from 1 to 10
 
    ▶ null tells whether a list is empty
@@ -123,6 +129,8 @@ Excerpt From: Hutton, Graham. “Programming in Haskell (9781316876152).” Appl
 <pre>
 
    Instead of conditionals, we use equations with guards
+   ▶ Otherwise is just a constant wich is always evaluates to true (always taken).
+   ▶ Each guard defines a condition over the arguments
    ▶ Each guard defines a condition over the arguments
    ▶ These conditions are checked in order
    ▶ The first satisfiable one is applied
