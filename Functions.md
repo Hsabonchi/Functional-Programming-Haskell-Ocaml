@@ -1,17 +1,51 @@
 #### How to install Haskell on  macOS
  - [Install Haskell on macOS](https://medium.com/analytics-vidhya/install-haskell-on-macos-e5677ab620b5)
  <br>
+ 
+ <pre>
+    Some distinguishing features of Functional Programming?:
+    
+    1. Recursion instead of iteration.
+    2. Pattern matching on values.
+    3. Expressions instead of statements.
+    4. Functions as first-class citizens.
+    
+    ▶ You can write “functional code” in almost any language.
+    
+    Haskell can be defined with four adjectives.
+    
+     ▶ Functional
+     ▶ Statically typed
+     ▶ Pure
+     ▶ Lazy
+     
+     What is a statically typed?
+     A language is statically typed if the type of a variable is known at compile time.
+     
+     ▶ Every expression and function has a type.
+     ▶ The compiler prevents wrong combinations.
+     ▶ Haskell forbids executing code with type errors
+ </pre>
+ 
+  
 <pre>
    ▶  Haskell scripts usually have a `.hs` suffix on their filename to differentiate them from other kinds of files. 
    ▶  In Haskell, we do not have a return statement, the last expression that evaluated is  what we return.
    ▶  Every value in haskell has a type.
+   ▶  Variables do not change, only give names.
    ▶  Function has its own type.
    ▶  let binding, when we bind the result of some expression to a name and produce a result.
    ▶  There is no loop in haskell instead  recursion.
-- <strong ▶ In haskell variable names must start with a lowercase letter. Anything that is uppercase is interpreted by the compiler as a Data Constructor</strong>
+<strong ▶ In haskell variable names must start with a lowercase letter. Anything that is uppercase is interpreted by the compiler as a Data Constructor</strong>
+
+ Basic types:
+ • Integers
+    3 + 4 * 5 :: Integer
+• Floats
+   3 + 4.5 * 5.5 :: Float
+• Characters
+   ‘a’ :: Char
 </pre>
-
-
 <br>
 
 ---
