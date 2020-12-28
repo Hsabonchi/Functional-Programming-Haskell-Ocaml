@@ -128,9 +128,10 @@ Excerpt From: Hutton, Graham. “Programming in Haskell (9781316876152).” Appl
 ### Guards
 <pre>
 
-   Instead of conditionals, we use equations with guards
+   - Instead of conditionals,we use equations with guards.
+   ▶ The symbol | is read as such that.
    ▶ Otherwise is just a constant wich is always evaluates to true (always taken).
-   ▶ Each guard defines a condition over the arguments
+   ▶ Ending a sequence of guards with otherwise is not necessary, but provides a convenient way of handling all other cases.
    ▶ Each guard defines a condition over the arguments
    ▶ These conditions are checked in order
    ▶ The first satisfiable one is applied
@@ -152,8 +153,9 @@ Excerpt From: Hutton, Graham. “Programming in Haskell (9781316876152).” Appl
   ▶ “For each x in xs, return x + 1”
   ▶ Very similar to mathematical notation
   {x + 1 | x ∈ xs}
-
 </pre>
+
+[splitAt](http://zvon.org/other/haskell/Outputprelude/splitAt_f.html)
 
 
 
