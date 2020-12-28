@@ -2,7 +2,7 @@
  - [Install Haskell on macOS](https://medium.com/analytics-vidhya/install-haskell-on-macos-e5677ab620b5)
  <br>
 <pre>
-   ▶  Haskell scripts usually have a .hs suffix on their filename </strong> to differentiate them from other kinds of files. 
+   ▶  Haskell scripts usually have a `.hs` suffix on their filename to differentiate them from other kinds of files. 
    ▶  In Haskell, we do not have a return statement, the last expression that evaluated is  what we return.
    ▶  Every value in haskell has a type.
    ▶  Function has its own type.
