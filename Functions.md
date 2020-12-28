@@ -155,7 +155,7 @@ Excerpt From: Hutton, Graham. “Programming in Haskell (9781316876152).” Appl
   {x + 1 | x ∈ xs}
 </pre>
 
-[splitAt](http://zvon.org/other/haskell/Outputprelude/splitAt_f.html) | [take] (https://github.com/Hsabonchi/Haskell/edit/main/Functions.md)
+[splitAt](http://zvon.org/other/haskell/Outputprelude/splitAt_f.html) | [take](https://github.com/Hsabonchi/Haskell/edit/main/Functions.md)
 
 
 
