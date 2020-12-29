@@ -36,7 +36,8 @@
    ▶  Function has its own type.
    ▶  let binding, when we bind the result of some expression to a name and produce a result.
    ▶  There is no loop in haskell instead  recursion.
-   ▶ In haskell variable names must start with a lowercase letter. Anything that is uppercase is interpreted by the compiler as a Data Constructor
+   ▶ In haskell variable names must start with a lowercase letter. Anything that is uppercase is interpreted by the compiler as a Data Constructor.
+   
 
  Basic types:
  • Integers
@@ -159,9 +160,12 @@ Excerpt From: Hutton, Graham. “Programming in Haskell (9781316876152).” Appl
  ▶ What would you return if one is missing?.
  ▶ Remember, everything is an expression.
 
- `abs n = if n < 0
-     then -n 
-     else n`
+  `pushOut x = if x == 0
+               then x
+               else
+               if x > 0
+               then x + 1
+              else x - 1`
 
  </pre>
  
