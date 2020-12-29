@@ -50,8 +50,14 @@
 
 ---
 <pre>
- List can be of one type
+ List can be of one type.
  
+ Primitives for building lists
+   ▶ [] :: [a] is the empty list
+   ▶ (:) :: a -> [a] -> [a] (the “cons” operator)
+   ▶ Build a list by putting an element at the front
+   ▶ When we write [1, 2, 3] the compiler translates it to
+          1 : 2 : 3 : []
  
 > init [1,2,3,4]
    ▶ which give you a copy of that list where the last element removed.
@@ -153,7 +159,6 @@ Excerpt From: Hutton, Graham. “Programming in Haskell (9781316876152).” Appl
  ▶ What would you return if one is missing?.
  ▶ Remember, everything is an expression.
 
- 
  `abs n = if n < 0
      then -n 
      else n`
