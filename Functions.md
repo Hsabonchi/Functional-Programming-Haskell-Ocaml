@@ -191,6 +191,15 @@ Excerpt From: Hutton, Graham. “Programming in Haskell (9781316876152).” Appl
   {x + 1 | x ∈ xs}
 </pre>
 
+---
+### higher-order function
+<pre>
+ > map fact [1 .. 5]
+       [1,2,6,24,120]
+</pre>
+
+
+
 [splitAt](http://zvon.org/other/haskell/Outputprelude/splitAt_f.html) | [take](https://github.com/Hsabonchi/Haskell/edit/main/Functions.md)
 
 
