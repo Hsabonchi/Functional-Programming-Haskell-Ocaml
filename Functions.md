@@ -60,7 +60,7 @@
 
    ▶ null tells whether a list is empty
    ▶ head returns the first element in a list
-   ▶ tail returns all but the first element
+   ▶ tail returns all but the first element removed
    > null [1,2,3]
    False
    > head [1,2,3]
