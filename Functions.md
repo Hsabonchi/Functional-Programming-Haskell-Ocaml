@@ -50,7 +50,7 @@
 
 ---
 <pre>
- ##### List can be of one type
+ List can be of one type
  
  
 > init [1,2,3,4]
