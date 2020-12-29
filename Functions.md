@@ -138,8 +138,8 @@ Excerpt From: Hutton, Graham. “Programming in Haskell (9781316876152).” Appl
 
   
  ---
-  |----------|:-------------:|
-  |<img src="Resources/avgList.png" height="150">|left-aligned |
+  
+ <img src="Resources/avgList.png" height="150">| <img src="Resources/func.png" height="150"> |
 
 
 ---
