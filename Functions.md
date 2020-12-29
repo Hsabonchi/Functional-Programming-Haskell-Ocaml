@@ -36,7 +36,7 @@
    ▶  Function has its own type.
    ▶  let binding, when we bind the result of some expression to a name and produce a result.
    ▶  There is no loop in haskell instead  recursion.
-<strong ▶ In haskell variable names must start with a lowercase letter. Anything that is uppercase is interpreted by the compiler as a Data Constructor</strong>
+   ▶ In haskell variable names must start with a lowercase letter. Anything that is uppercase is interpreted by the compiler as a Data Constructor
 
  Basic types:
  • Integers
