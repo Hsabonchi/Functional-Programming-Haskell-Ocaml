@@ -139,13 +139,7 @@ Excerpt From: Hutton, Graham. “Programming in Haskell (9781316876152).” Appl
   
  ---
   |----------|:-------------:|
-  | <p><img src="Resources/avgList.png" height="150">|</p>. fac :: Int -> Int
-                                                       fac 0 = 1
-                                                       fac n = n * fac (n-1)
-                                                       ▶ Each equation goes into its own line
-                                                       ▶ Equations are checked in order
-                                                       ▶ If n is 0, then the function equals 1
-                                                       ▶ If n is different from 0, then it goes to the second|
+  |<img src="Resources/avgList.png" height="150">|left-aligned |
 
 
 ---
