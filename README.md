@@ -11,4 +11,4 @@ Functional Programming - Course|[Functional Programming](http://www.cs.uu.nl/doc
 Advanced Functional Programming - Course|[Advanced Functional Programming](https://web.engr.oregonstate.edu/~walkiner/teaching/cs583-sp20/)
 oregonstate - Course |[Advanced Functional Programming](https://web.engr.oregonstate.edu/~walkiner/teaching/cs583-sp20/)
 My Notes|[Notes](https://github.com/Hsabonchi/Haskell/blob/main/Functions.md)
-
+Haskell Cheat Sheet|[Cheat Sheet](http://cheatsheet.codeslower.com/CheatSheet.pdf)
