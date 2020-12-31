@@ -38,6 +38,9 @@
    ▶  There is no loop in haskell instead  recursion.
    ▶ In haskell variable names must start with a lowercase letter. Anything that is uppercase is interpreted by the compiler as a Data Constructor.
    
+   
+  ▶  " -> " is the parameter that a function takes and the thing after it is what it returns.
+   
 
  Basic types:
  • Integers
