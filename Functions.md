@@ -188,6 +188,26 @@ Excerpt From: Hutton, Graham. “Programming in Haskell (9781316876152).” Appl
    abs n | n < 0 = -n
    | otherwise = n
 </pre>
+
+   #### Q)
+     <pre>
+     Write a function named $range$ (with type $Int -> Int -> [Int]$) that takes
+      two integers and creates a list containing all integers between the two given
+      integers. The list's head is the first given integer, and the list's last element
+      is the second given integer.
+      e.g. $range 4 9$ returns $[4,5,6,7,8,9]$
+      e.g. $range 9 4$ returns $[9,8,7,6,5,4]$
+      e.g. $range 4 4$ returns $[4]$
+      </pre>
+
+#### A)
+        <pre>
+           range  x y | x < y   = [x..y]  
+           | x== y    = [x]
+           |otherwise =[x,x-1..y] 
+        </pre>
+
+
  
  ---
  
