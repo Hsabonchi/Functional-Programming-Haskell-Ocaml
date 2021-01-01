@@ -155,6 +155,7 @@ Excerpt From: Hutton, Graham. “Programming in Haskell (9781316876152).” Appl
 ---
 ### Conditionals
 <pre>
+  if<Condition> then <True-Value>else <False-Value> 
 
 -- if condition then expression else expression.
 
