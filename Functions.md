@@ -43,12 +43,12 @@
    
 
  Basic types:
- • Integers
-    3 + 4 * 5 :: Integer
-• Floats
-   3 + 4.5 * 5.5 :: Float
-• Characters
-   ‘a’ :: Char
+  • Integers
+     3 + 4 * 5 :: Integer
+ • Floats
+    3 + 4.5 * 5.5 :: Float
+ • Characters
+    ‘a’ :: Char
 </pre>
 <br>
 
@@ -80,37 +80,43 @@
 
 commonly used library functions on lists are illustrated below.
 Select the first element of a non-empty list:
-> head [1,2,3,4,5]
-1
-Remove the first element from a non-empty list:
-> tail [1,2,3,4,5]
-[2,3,4,5]
-Select the nth element of list (counting from zero):
-> [1,2,3,4,5] !! 2
-3
-Select the first n elements of a list:
-> take 3 [1,2,3,4,5]
-[1,2,3]
-Remove the first n elements from a list:
-> drop 3 [1,2,3,4,5]
-[4,5]
-Calculate the length of a list:
-> length [1,2,3,4,5]
-5
-Calculate the sum of a list of numbers:
-> sum [1,2,3,4,5]
-15
-Calculate the product of a list of numbers:
-> product [1,2,3,4,5]
-120
-Append two lists:
-> [1,2,3] ++ [4,5]
-[1,2,3,4,5]
-Reverse a list:
-> reverse [1,2,3,4,5]
-[5,4,3,2,1] 
+    > head [1,2,3,4,5]
+    1
+    Remove the first element from a non-empty list:
+    > tail [1,2,3,4,5]
+    [2,3,4,5]
+    Select the nth element of list (counting from zero):
+    > [1,2,3,4,5] !! 2
+    3
+    Select the first n elements of a list:
+    > take 3 [1,2,3,4,5]
+    [1,2,3]
+    Remove the first n elements from a list:
+    > drop 3 [1,2,3,4,5]
+    [4,5]
+    Calculate the length of a list:
+    > length [1,2,3,4,5]
+    5
+    Calculate the sum of a list of numbers:
+    > sum [1,2,3,4,5]
+    15
+    Calculate the product of a list of numbers:
+    > product [1,2,3,4,5]
+    120
+    Append two lists:
+    > [1,2,3] ++ [4,5]
+    [1,2,3,4,5]
+    Reverse a list:
+    > reverse [1,2,3,4,5]
+    [5,4,3,2,1] 
 </pre>
-
+ - Delete the first N elements from a list.
+     `drop n xs`
+  - `init xs` removes just the last element.
+  - Make a new list containing just the first N elements from an existing list.
+     `take n xs`
+  - Split a list into two smaller lists (at the Nth position).
+     `splitAt n xs`
 
 ---
 
