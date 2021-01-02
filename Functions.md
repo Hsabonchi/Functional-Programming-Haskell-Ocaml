@@ -117,9 +117,13 @@ Select the first element of a non-empty list:
      `take n xs`
   - Split a list into two smaller lists (at the Nth position).
      `splitAt n xs`
+     
+     
+  - `Integral` includes only integral (whole) numbers. In this typeclass are Int and Integer.
+  - `fromIntegral` useful when you want integral and floating point types to work togethe , if we try to get a length of a list and then add it to 3.2, we'll get an error because we tried to add together an Int and a floating point number. So to get around this, we do fromIntegral (length [1,2,3,4]) + 3.2 and it all works out.
+
 
 ---
-
 
 
 <br>
