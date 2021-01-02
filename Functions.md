@@ -241,6 +241,23 @@ Excerpt From: Hutton, Graham. “Programming in Haskell (9781316876152).” Appl
        [1,2,6,24,120]
 </pre>
 
+##### Lambdas
+Lambdas are basically anonymous functions that are used because we need some functions only once.
+To make a lambda, we write a `\` (because it kind of looks like the greek letter lambda if you squint hard enough) and then we write the parameters, separated by spaces. After that comes a -> and then the function body.
+
+<pre>
+     Write a function named $percent$ (with type $Int -> Int -> Float$) that
+     takes two integers $m$ and $n$ and returns the percentage of $m/n$.
+     e.g. $percent 3 4$ returns $75.0$
+     
+     A)
+     
+     percent = \ m -> \ n -> ((fromIntegral m)/(fromIntegral n) * 100.0)
+</pre>
+
+
+  
+
 
 
 [splitAt](http://zvon.org/other/haskell/Outputprelude/splitAt_f.html) | [take](https://github.com/Hsabonchi/Haskell/edit/main/Functions.md)
