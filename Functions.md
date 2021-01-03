@@ -40,6 +40,19 @@
    
    
   ▶  " -> " is the parameter that a function takes and the thing after it is what it returns.
+  
+  ▶ A pattern like `x:xs` will bind the head of the list to `x` and the rest of it to `xs`, even 
+  if there's only one  element so xs ends up being an empty list.
+  
+  ▶ `x:y:z:zs` bind the first three elements to variables and the rest of the list to another variable,
+
+e.g
+` tell [] = "The list is empty"  
+  tell (x:[]) = "The list has one element: " ++ show x  
+  tell (x:y:[]) = "The list has two elements: " ++ show x ++ " and " ++ show y  
+  tell (x:y:_) = "it matches any list of length 2 or more. The first two elements are: " ++ show x ++ " and " ++ show y  
+`
+
    
 
  Basic types:
@@ -124,8 +137,6 @@ Select the first element of a non-empty list:
 
 
 ---
-
-
 <br>
 
 - “ A function is a mapping from arguments of one type to results of another type. ”
