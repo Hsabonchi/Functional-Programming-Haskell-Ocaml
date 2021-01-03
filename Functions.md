@@ -199,15 +199,17 @@ Excerpt From: Hutton, Graham. “Programming in Haskell (9781316876152).” Appl
 <pre>
 
    - Instead of conditionals,we use equations with guards.
+   
    ▶ The symbol | is read as such that.
-   ▶ Otherwise is just a constant wich is always evaluates to true (always taken).
+   ▶ Otherwise is just a constant wich is always evaluates to true (otherwise = True and catches everything) .
    ▶ Ending a sequence of guards with otherwise is not necessary, but provides a convenient way of handling all other cases.
    ▶ Each guard defines a condition over the arguments
    ▶ These conditions are checked in order
    ▶ The first satisfiable one is applied
    ▶ We typically use otherwise for the default case
+   
    abs n | n < 0 = -n
-   | otherwise = n
+         | otherwise = n
 </pre>
 
    #### Q)
