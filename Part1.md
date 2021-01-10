@@ -1,4 +1,5 @@
 #### How to install Haskell on  macOS
+
  - [Install Haskell on macOS](https://medium.com/analytics-vidhya/install-haskell-on-macos-e5677ab620b5)
  <br>
  
