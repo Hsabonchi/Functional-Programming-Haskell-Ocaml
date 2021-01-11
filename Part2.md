@@ -30,5 +30,18 @@
             putStrLn "please Enter your name"
             name <- getLine
             putStrLn name
+            
+            
+   main =do
+        putStrLn "please Enter First number: "
+        firstStr <- getLine
+        
+        putStrLn "please Enter Second number: "
+        secondStr <- getLine
+        
+        let firstNumber = read firstStr::Int
+        let secondNumber = read secondStr::Int
+        
+        print (firstNumber + secondNumber)
 </pre>
 
