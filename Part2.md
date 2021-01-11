@@ -21,3 +21,14 @@
       
 
 </pre>
+
+---
+- getLine allows user to type on console.
+-  read casts strings to another type
+<pre>
+     main = do
+            putStrLn "please Enter your name"
+            name <- getLine
+            putStrLn name
+</pre>
+
