@@ -1,22 +1,23 @@
-show      means
-let       means
-++        means   string Concatination
---        means   comment in haskell
-putStrLn  means
-print     means   anyyhink that is not a string use a print
+- show      means   converts its argument to a string  e.g putStrLn (show 1)
+- let       means
+- ++        means   string Concatination
+- --        means   comment in haskell
+- putStrLn  means   (put a String followed by a new Line) takes a String and displays it to the screen, followed by a newline.
+- print     means   anyyhink that is not a string use a print
 
-In Haskell can not change variable value like const in java and javaScript
+-- In Haskell variables can not be changed like const in java and javaScript.
+--  no need for let outside main function.
 
-`   name ::String
-    name="Sabonchi"   -- no need for let outside main function
+<pre>
+    name ::String
+    name="Sabonchi"  
     
-    age:: Int
-    age =12
-    
+     age:: Int
+     age =12
     
     main =do
       putStrLn name
-      putStrLn age
+      print age
       
 
-`
+</pre>
