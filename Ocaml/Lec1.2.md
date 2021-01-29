@@ -1,1 +1,1 @@
-<img src="Resources/ocaml-ex2.png" height="250">| 
+    <img src="Resources/ocaml-ex2.png" height="350">| 
