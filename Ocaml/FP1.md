@@ -38,17 +38,7 @@
       basic types: integers, floating point numbers, booleans, characters, strings.
       more sophisticated data types: tuples, arrays, lists, sets, hash tables, queues, stacks, data streams.
       
-    <h3> Why Ocamel </h3>
-     Statically typed:  debugging and testing aid
-     – compiler catches many silly errors before you can run the code.
-         * A type is worth a thousand tests
-     – Java is also strongly, statically typed.
-     – Scheme, Python, Javascript, etc. are all strongly, dynamically typed 
-         – type errors are discovered while the code is running.    
-    Strongly typed:  compiler enforces type abstraction.
-    – Cannot cast an integer to a record, function, string, etc. so we can utilize types as capabilities;crucial for local reasoning.
-    – C/C++ are weakly typed(statically typed)languages.The compiler will happily let you do something smart (more often stupid).  
-
+   
     OCaml carefully distinguishes between float, the type for floating-point numbers,. 
     The types have different literals (6.instead of 6) and different infix operators (+. instead of +),
     and OCaml doesn’t automatically cast between thesetypes. 
