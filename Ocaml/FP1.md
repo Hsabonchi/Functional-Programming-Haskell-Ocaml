@@ -15,13 +15,12 @@
      ▶ Every expression and function has a type.
      ▶ The compiler prevents wrong combinations.
     
-    
-     <h5> OCamel </h5> 
+     OCamel 
      ▶ OCaml eliminates many of the type-related runtime problems associated with dynamically typed languages.
      ▶ OCaml t's used in environments where <a href="https://ocaml.org/learn/companies.html"> a single mistake can cost millions and speed matters</a>
      ▶ OCaml is pretty simple, which is one reason it's often used as a teaching language.
      
-     <h3> Strengths </h3>
+       Strengths 
      - A powerful type system
      - Automatic memory management, thanks to a fast, unobtrusive, incremental garbage collector.
      - Efficient native code compilers. In addition to its bytecode compiler, OCaml offers a compiler that produces efficient machine code for many architectures.
