@@ -1,4 +1,3 @@
-<<<<<<< HEAD
  <img src="Resources/ocaml-ex2.png" height="350">
  <br>
  <img src="Resources/ocaml-ex2-1.1.png" height="350">
@@ -25,6 +24,3 @@
    </pre>
   </li> 
 </ul>
-=======
-
->>>>>>> 65a874f89f633f415ae67b17d266cac372831352
