@@ -16,7 +16,7 @@
      ▶ The compiler prevents wrong combinations.
     
     
-     <h4> OCamel </h4> 
+     <h5> OCamel </h5> 
      ▶ OCaml eliminates many of the type-related runtime problems associated with dynamically typed languages.
      ▶ OCaml t's used in environments where <a href="https://ocaml.org/learn/companies.html"> a single mistake can cost millions and speed matters</a>
      ▶ OCaml is pretty simple, which is one reason it's often used as a teaching language.
@@ -26,8 +26,8 @@
      - Automatic memory management, thanks to a fast, unobtrusive, incremental garbage collector.
      - Efficient native code compilers. In addition to its bytecode compiler, OCaml offers a compiler that produces efficient machine code for many architectures.
      
-     Functions
-       OCaml is a functional programming language: there is no restriction on the definition and use of functions. In other words, functions are ordinary values: a        function can be passed as an argument to a function or returned by a function.
+      Functions
+       OCaml is a functional programming language: there is no restriction on the definition and use of functions. In other words, functions are ordinary values:        a function can be passed as an argument to a function or returned by a function.
        
      Imperative features
        
