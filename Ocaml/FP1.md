@@ -48,4 +48,11 @@
     Strongly typed:  compiler enforces type abstraction.
     – Cannot cast an integer to a record, function, string, etc. so we can utilize types as capabilities;crucial for local reasoning.
     – C/C++ are weakly typed(statically typed)languages.The compiler will happily let you do something smart (more often stupid).  
- </pre>
+
+    OCaml carefully distinguishes between float, the type for floating-point numbers,. 
+    The types have different literals (6.instead of 6) and different infix operators (+. instead of +),
+    and OCaml doesn’t automatically cast between thesetypes. 
+    This can be a bit of a nuisance, but it has its benefits,since it prevents some kinds of bugs that 
+    arise in other languages due to unexpected differences between the behavior of int and float. 
+    For example, in many languages, 1 / 3 is zero, but 1.0 /. 3.0 is a third.
+  </pre>
