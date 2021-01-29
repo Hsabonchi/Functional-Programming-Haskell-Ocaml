@@ -13,4 +13,14 @@
              return n+(sumTo(n-1))
    </pre>
   </li> 
+ <li> <pre> java:
+            - loop
+            - if
+            
+          Ocaml:
+            - recursive function calls "rec"
+            - pattren matching  math n with ....
+             
+   </pre>
+  </li> 
 </ul>
