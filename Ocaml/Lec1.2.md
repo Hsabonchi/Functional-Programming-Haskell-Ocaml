@@ -7,6 +7,6 @@
 <li> keyword “rec” indicates recursion </li>    
 <li> keyWords “match” and “with” </li>    
 <li> vertical bar "|" separates the alternative patterns</li>    
-   
+<li> "let _ is" an anonymous defination like the main function for c </li> 
  
 </ul>
