@@ -38,14 +38,14 @@
       basic types: integers, floating point numbers, booleans, characters, strings.
       more sophisticated data types: tuples, arrays, lists, sets, hash tables, queues, stacks, data streams.
       
-     Why Ocamel
-    Small, orthogonal core based on the lambda calculus.
-    –Control is based on (recursive) functions.
-    –Instead of for-loops, while-loops, do-loops, iterators, etc.
-      • can be defined as library functions.–Makes it easy to define semantics Supports first-class, lexically scoped, higher-orderprocedures–a.k.a. first-class          functions or closures or lambdas
-      .–first-class:  functions are data values like any other data value
-       • like numbers, they can be stored, defined anonymously, ...  
-      – lexically scoped:  meaning of variables determined statically.
-      – higher-order:  functions as arguments and results
-       • programs passed to programs; generated from programs
+    <h3> Why Ocamel </h3>
+     Statically typed:  debugging and testing aid
+     – compiler catches many silly errors before you can run the code.
+         * A type is worth a thousand tests
+     – Java is also strongly, statically typed.
+     – Scheme, Python, Javascript, etc. are all strongly, dynamically typed 
+         – type errors are discovered while the code is running.    
+    Strongly typed:  compiler enforces type abstraction.
+    – Cannot cast an integer to a record, function, string, etc. so we can utilize types as capabilities;crucial for local reasoning.
+    – C/C++ are weakly typed(statically typed)languages.The compiler will happily let you do something smart (more often stupid).  
  </pre>
