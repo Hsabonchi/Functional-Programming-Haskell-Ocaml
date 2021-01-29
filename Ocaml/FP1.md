@@ -20,19 +20,24 @@
      ▶ OCaml t's used in environments where <a href="https://ocaml.org/learn/companies.html"> a single mistake can cost millions and speed matters</a>
      ▶ OCaml is pretty simple, which is one reason it's often used as a teaching language.
      
-       Strengths 
+      Strengths 
      - A powerful type system
      - Automatic memory management, thanks to a fast, unobtrusive, incremental garbage collector.
-     - Efficient native code compilers. In addition to its bytecode compiler, OCaml offers a compiler that produces efficient machine code for many architectures.
+     - Efficient native code compilers. In addition to its bytecode compiler, 
+       OCaml offers a compiler that produces efficient machine code for many architectures.
      
-      Functions
-       OCaml is a functional programming language: there is no restriction on the definition and use of functions. In other words, functions are ordinary values:        a function can be passed as an argument to a function or returned by a function.
+     Functions
+       OCaml is a functional programming language: there is no restriction on the definition and use of functions. 
+         In other words, functions are ordinary 
+        values: function can be passed as an argument to a function or returned by a function.
        
      Imperative features
        
-        OCaml offers a full array of imperative features. In particular, variables, arrays, and record components can be declared as modifiable. Several varieties           of loops are available.
+        OCaml offers a full array of imperative features. In particular, variables, arrays, and record components can be declared as modifiable. 
+        Several varieties of loops are available.
         
      Data Types
+     
       OCaml offers numerous built-in data types, including:
       basic types: integers, floating point numbers, booleans, characters, strings.
       more sophisticated data types: tuples, arrays, lists, sets, hash tables, queues, stacks, data streams.
