@@ -9,3 +9,4 @@ LMU Functionalprogramming |[ Functional Programming](https://cs.lmu.edu/~ray/not
 Real World OCaml (book)|[Real World OCaml](https://dev.realworldocaml.org/toc.html)
 99 Problems (solved) in OCaml|[99 Problems (solved) in OCaml](https://ocaml.org/learn/tutorials/99problems.html)
 Princeton COS 326 FP (course)|[OCaml](https://www.cs.princeton.edu/courses/archive/fall20/cos326/schedule.php)
+cornell 2014 (course) |[CS 3110 Spring 2014 ](https://www.cs.cornell.edu/courses/cs3110/2014sp/lecture_notes.php )
