@@ -8,3 +8,4 @@ IOCamlJS Demos|[Interactive toplevel online](https://andrewray.github.io/iocamlj
 LMU, Functionalprogramming|[ Functional Programming](https://cs.lmu.edu/~ray/notes/functionalprogramming/)
 Real World OCaml|[Real World OCaml](https://dev.realworldocaml.org/toc.html)
 99 Problems (solved) in OCaml|[99 Problems (solved) in OCaml](https://ocaml.org/learn/tutorials/99problems.html)
+COS 326 FP|[OCaml](https://www.cs.princeton.edu/courses/archive/fall20/cos326/schedule.php)
