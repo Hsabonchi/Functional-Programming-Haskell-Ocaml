@@ -24,3 +24,6 @@
    </pre>
   </li> 
 </ul>
+<br>
+
+<img src="Resources/Lec2.3.png" height="350">
