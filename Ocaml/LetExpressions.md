@@ -12,6 +12,15 @@
 
 <pre>
 
+(* x should be of type 1 or 0  *)
+let int_to_bool x = match x with
+        | 1 ->true 
+        | 0 -> false ;;
+    
+int_to_bool(0);;
+
+
+
 let bool_to_int (b:bool) : int =
   match b with
       true  -> 1
