@@ -1,8 +1,11 @@
- <bre>                       
-           <img src="Resources/Lec2.3.png" height="350">         
-    <bre>
+                       
+ <img style=" margin-right:20%;" src="Resources/Lec2.3.png" height="350">         
+   
+    
+  <br>
+ <br>
  
- 
+ ##### Another Example
  
  
  
