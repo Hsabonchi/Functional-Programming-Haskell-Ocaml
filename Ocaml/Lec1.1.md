@@ -7,7 +7,7 @@
     4. Functions as first-class citizens.
     
     ▶ You can write “functional code” in almost any language.
-    
+      ▶  In a pure functional language, every program is just an expression evaluation.
   
      What is a statically typed?
      A language is statically typed if the type of a variable is known at compile time.
