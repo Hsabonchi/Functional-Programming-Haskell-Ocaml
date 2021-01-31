@@ -1,5 +1,6 @@
- <img src="Resources/Lec2.1.png" height="350">
+ <img  style="margin-right:255;"  src="Resources/Lec2.1.png" height="350">
  
  <br>
+ <br>
  
- <img src="Resources/Lec2.2.png" height="350">
+ <img style="margin-right:255;"  src="Resources/Lec2.2.png" height="250">
