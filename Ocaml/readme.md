@@ -6,6 +6,9 @@ Important Notes about Programming:
 - Second, statically-typed languages require you to declare the data types of your variables before you use them, while dynamically-typed languages do not.
 - Dynamically-typed languages are more flexible and can save you time and space when writing scripts
 
+ Side notes
+  - float_of_int is a function which takes an int and returns a float.
+
 <br>
 <br>
 <br>
