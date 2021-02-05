@@ -9,6 +9,7 @@ Important Notes about Programming:
  Side notes
   - float_of_int is a function which takes an int and returns a float.
   - <strong> --> </strong> refers to  evaluation.
+  - <strong> string_of_int </strong> converts an integer to a string value.
 <br>
 <br>
 <br>
