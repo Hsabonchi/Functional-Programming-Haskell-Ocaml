@@ -8,7 +8,7 @@ Important Notes about Programming:
 
  Side notes
   - float_of_int is a function which takes an int and returns a float.
-
+  - <strong> --> </strong> refers to  evaluation.
 <br>
 <br>
 <br>
