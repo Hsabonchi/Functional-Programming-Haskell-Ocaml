@@ -20,6 +20,7 @@ Important Notes about Programming:
 Resouces_Name  |Link
 --- |---
 Cheat Sheets|[Cheat Sheets](https://www.ocamlpro.com/wp-content/uploads/2019/09/ocaml-lang.pdf)
+Cheat Sheets-2 |[Cheat Sheets-adv](igaux.org/language-study/syntax-across-languages-per-language/OCaml.html)
 Basic Expressions and Types-|[Basic Expressions and Types](https://www.cs.cornell.edu/courses/cs3110/2014sp/recitations/1/rec01.html)
 IOCamlJS Demos(compiler)|[Interactive toplevel online](https://andrewray.github.io/iocamljs/min.html)
 LMU Functionalprogramming |[ Functional Programming](https://cs.lmu.edu/~ray/notes/functionalprogramming/)
