@@ -12,14 +12,17 @@
      What is a statically typed?
      A language is statically typed if the type of a variable is known at compile time.
      
+     ▶ Variables must be lower-case in Caml.
      ▶ Every expression and function has a type.
      ▶ The compiler prevents wrong combinations.
+     ▶ The '-' indicates this anonymous variable.
     
-     OCamel 
+      OCamel 
+      
      ▶ OCaml eliminates many of the type-related runtime problems associated with dynamically typed languages.
      ▶ OCaml t's used in environments where <a href="https://ocaml.org/learn/companies.html"> a single mistake can cost millions and speed matters</a>
      ▶ OCaml is pretty simple, which is one reason it's often used as a teaching language.
-     
+      
       Strengths 
      - A powerful type system
      - Automatic memory management, thanks to a fast, unobtrusive, incremental garbage collector.
@@ -37,15 +40,35 @@
         Several varieties of loops are available.
         
      Data Types
-     
-      OCaml offers numerous built-in data types, including:
-      basic types: integers, floating point numbers, booleans, characters, strings.
-      more sophisticated data types: tuples, arrays, lists, sets, hash tables, queues, stacks, data streams.
       
+      OCaml offers numerous built-in data types, including:
+      basic types:
+      
+          ▶ integers, 
+          ▶ floating point numbers, 
+          ▶ booleans, 
+          ▶ characters, 
+          ▶ strings.
+          
+      more sophisticated data types: 
+           ▶ tuples, 
+           ▶ arrays, 
+           ▶ lists, 
+           ▶ sets, 
+           ▶ hash tables, 
+           ▶ queues, 
+           ▶ stacks, 
+          Use ;; to indicate that you've finished entering each statement. data streams.
+      
+     ▶  Use `;;` to indicate that you've finished entering each statement.
+     ▶  OCaml doesn't have a return keyword — the last expression in a function becomes the result of the function automatically.
+     ▶  float_of_int is a function which takes an int and returns a float.
    
-    OCaml carefully distinguishes between float, the type for floating-point numbers,. 
+    OCaml carefully distinguishes between float, the type for floating-point numbers,.
+    
     The types have different literals (6.instead of 6) and different infix operators (+. instead of +),
-    and OCaml doesn’t automatically cast between thesetypes. 
+    and OCaml doesn’t automatically cast between thesetypes.
+    
     This can be a bit of a nuisance, but it has its benefits,since it prevents some kinds of bugs that 
     arise in other languages due to unexpected differences between the behavior of int and float. 
     For example, in many languages, 1 / 3 is zero, but 1.0 /. 3.0 is a third.
