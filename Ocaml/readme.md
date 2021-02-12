@@ -10,6 +10,7 @@ Important Notes about Programming:
   - float_of_int is a function which takes an int and returns a float.
   - <strong> --> </strong> refers to  evaluation.
   - <strong> string_of_int </strong> converts an integer to a string value.
+  - Underscore (_) is a wildcard that will match anything, useful as a default or when you just don’t care.
 <br>
 <br>
 <br>
