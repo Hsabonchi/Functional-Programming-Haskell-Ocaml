@@ -11,6 +11,7 @@ Important Notes about Programming:
   - <strong> --> </strong> refers to  evaluation.
   - <strong> string_of_int </strong> converts an integer to a string value.
   - Underscore (_) is a wildcard that will match anything, useful as a default or when you just don’t care.
+  - print_int, print_float,print_char,print_endline.
 <br>
 <br>
 <br>
