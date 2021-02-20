@@ -63,18 +63,18 @@ print_endline (survey ());;
  * in the ???s to make them type check. *)
 
 (* 2.a. *)
-let prob2a : ???  = let greet y = "Hello " ^ y in greet "World!";;
+let prob2a :  string = let greet y = "Hello " ^ y in greet "World!";;
 
 (* 2.b. *)
-let prob2b : ??? = float_of_int (int_of_float(2.2 +. 7.7));;
+let prob2b: float  = float_of_int (int_of_float(2.2 +. 7.7));;
 
 (* 2.c. *)
-let rec prob2c (x : ???) : ??? =
+let rec prob2c (x :char) :char =
   prob2c (if true then prob2c x else 'h')
 ;;
 
 (* 2.d. *)
-let rec prob2d (y:???) (z:???) : ??? =
+let rec prob2d (y: bool) (z: bool) : bool =
   prob2d (prob2d z y) (not y)
 ;;
 
