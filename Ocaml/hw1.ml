@@ -19,23 +19,25 @@ let undefined : unit -> 'a = fun () -> failwith "undefined";;
 
 (* 1.a. Create a string with your first name.
  * Your code should replace undefined (). *)
-let first_name : string = undefined ();;
+let first_name : string = "Hasanain";;
+
+
 
 (* 1.b. Use a string operator on the string from 1.a. to create 
  * a string that contains both your first and last names.
  * Your code should replace undefined (). *)
-let name : string = undefined ();;
+let name : string =first_name ^ " Alsabonchi" ;;
 
 (* 1.c. Create a string containing your email address.
  * Your code should replace undefined (). *)
-let email : string = undefined ();;
+let email : string = "hsadeveloper@gmail.com";;
 
 (* 1.d. Create an integer with your (estimated) graduate year.
  * Your code should replace undefined (). *)
-let class_year : int = undefined ();;
+let class_year : int = 2021;;
 
 (* 1.e. Replace the ??? with what you're excited about in this course. *)
-let exciting : string = "I'm excited about ???!";;
+let exciting : string = "I'm excited about  learing a new programming paradigm !";;
 
 let print = Printf.sprintf;;
 
