@@ -88,15 +88,15 @@ let rec prob2d (y: bool) (z: bool) : bool =
  * Do NOT change the top-level type associated with the expression. *)
 
 (* 3.a Your code should replace undefined (). *)
-let exp3a : string = "because x < y expression expects int < int, 
+let exp3a : string = " Cannot compare float and int
+                      because x < y expression expects int < int or float <float, 
                       but compare 3.9 < 4 is float < int
                       it should be of the same data type";;
 
 let prob3a : bool = 
-  let compare x y = x < loat_of_int y  in 
-    compare 3.9 4 
+  let compare x y = x < y  in 
+    compare 3.9 4.
 ;;
-
 (* 3.b. Your code should replace undefined (). *)
 let exp3b : string = "because aux n-1 x+y y has type int -> int -> int, 
                       not int int int. Add () to make it match";;
@@ -252,8 +252,24 @@ let bad_arg (n:int) = raise (BadArg n);;
  * if n is less than 0 *)
 
 (* Your code should replace undefined (). *)
+
 let rec sin_pi (n:int) : float =
-  undefined ()
+  if n < 0 then bad_arg n
+  else
+    let rec aux i = 
+      if i = 0  then 3.0
+      else aux (i - 1) +. sin(aux (i - 1))
+    in
+      aux n
+;;
+let rec sin_pi (n:int) : float =
+  if n < 0 then bad_arg n
+  else
+    let rec aux i = 
+      if i = 0  then 3.0
+      else aux (i - 1) +. sin(aux (i - 1))
+    in
+      aux n
 ;;
 
 (* After the implementation, test your code with
