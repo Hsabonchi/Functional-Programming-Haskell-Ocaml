@@ -89,10 +89,11 @@ let rec prob2d (y: bool) (z: bool) : bool =
 
 (* 3.a Your code should replace undefined (). *)
 let exp3a : string = "because x < y expression expects int < int, 
-                      but compare 3.9 < 4 is float < int";;
+                      but compare 3.9 < 4 is float < int
+                      it should be of the same data type";;
 
 let prob3a : bool = 
-  let compare x y = x < y in 
+  let compare x y = x < loat_of_int y  in 
     compare 3.9 4 
 ;;
 
@@ -105,7 +106,7 @@ let prob3b : int =
   let fib n =
     let rec aux n y x =
       if n <= 0 then x 
-      else aux n-1 x+y y 
+      else aux (n-1) (x+y) y 
     in
       aux n 1 0
   in
@@ -115,8 +116,8 @@ let prob3b : int =
 (* 3.c. Your code should replace undefined (). *)
 let exp3c : string = "missing rec keyword for recursive function";; 
 
-let prob3c : int =
-  let sumTo (n:int) : int =
+let  prob3c : int =
+  let rec sumTo (n:int) : int =
     if n <= 0 then 0
     else n + sumTo (n-1)
   in
