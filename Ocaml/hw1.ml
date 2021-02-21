@@ -88,7 +88,8 @@ let rec prob2d (y: bool) (z: bool) : bool =
  * Do NOT change the top-level type associated with the expression. *)
 
 (* 3.a Your code should replace undefined (). *)
-let exp3a : string = undefined ();;
+let exp3a : string = "because x < y expression expects int < int, 
+                      but compare 3.9 < 4 is float < int";;
 
 let prob3a : bool = 
   let compare x y = x < y in 
@@ -96,7 +97,9 @@ let prob3a : bool =
 ;;
 
 (* 3.b. Your code should replace undefined (). *)
-let exp3b : string = undefined ();;
+let exp3b : string = "because aux n-1 x+y y has type int -> int -> int, 
+                      not int int int. Add () to make it match";;
+
 
 let prob3b : int = 
   let fib n =
@@ -110,7 +113,7 @@ let prob3b : int =
 ;;
 
 (* 3.c. Your code should replace undefined (). *)
-let exp3c : string = undefined ();;
+let exp3c : string = "missing rec keyword for recursive function";; 
 
 let prob3c : int =
   let sumTo (n:int) : int =
@@ -133,7 +136,7 @@ let prob4a =
   let u = 32.0 in 
   let v = 28.0 in
   let square w = w *. w in
-  let boff (x) (y) = ??? in
+  let boff (x) (y) = square x +. square y  in
   let d = sqrt (boff u v) in
     int_of_float d
 ;;
@@ -141,7 +144,7 @@ let prob4a =
 (* Also:  What warning message do you get if your ??? expression does not
  * use the function "square"? *)
 (* Your code should replace undefined (). *)
-let warn4a : string = undefined ();;
+let warn4a : string = "unused variable square.";;
 
 
 (* 4.b. Replace each ??? with the type of the corresponding expression,
@@ -149,15 +152,24 @@ let warn4a : string = undefined ();;
  * in exp4b a problem that remains with the function prob4b.
  *
  * The function f could implement any functionality. *)
-let f (a:???) (b:???) : ??? =
-;;
+ 
+ 
+ 
+ let f (a:int) (b:int) : float = float_of_int a -. float_of_int b ;;
 
-let rec prob4b (x:???) (y:???) : ??? =
-  prob4b (f y 4) (int_of_float x)
+let rec prob4b (x:float) (y:int) : float =
+    if x <= 1.0 then 1.0
+    else prob4b (f y 4) (int_of_float x)
+  in
+    prob4b 0.0 4
 ;;
-
+  
 (* Your code should replace undefined (). *)
-let exp4b : string = undefined ();;
+
+let exp4b : string = "prob4b didn't have the end point (base case) 
+                      for recursive function";;
+ 
+ 
 
 
 (* 4.c. Is it possible to find types for the argument and result that
