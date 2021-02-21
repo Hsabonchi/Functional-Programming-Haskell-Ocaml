@@ -403,10 +403,18 @@ let exp7a : string = undefined ();;
 *)
 
 (* Your code should replace undefined (). *)
-let exp7b : string = undefined ();;
+let exp7b : string = "In this algorithm, the parameter is n 
+                      which demonstrate the number of series we want to calculate";;
 
 let rec your_pi (n:int) : float =
-  undefined ()
+  if n < 0 then bad_arg n 
+  else 
+    let rec aux k quarter_pi = 
+      if k > n then quarter_pi
+      else   
+        quarter_pi +. aux (k + 1) ((float_of_int (-1) ** float_of_int k) /. (float_of_int (2 * k + 1)))
+    in 
+      let quarter_pi = aux 0 0.0 in (float_of_int 4) *. quarter_pi   
 ;;
 
 (* After the implementation, figure out at least three test cases
