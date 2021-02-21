@@ -211,9 +211,31 @@ let exp4c : string = undefined ();;
 exception BadDivisors of int * int;;
 let bad_divisors n m = raise (BadDivisors (n,m));;
 
-let rec few_divisors (n:int) (m:int) : bool =
-  undefined ()
+(* aux function *)
+let rec generate_list i n = 
+  let i = i + 1 in 
+    if i <= n then i::(generate_list i n) 
+    else []
 ;;
+
+(* from activity 2 *)
+let rec reduce (f:'a->'b->'b) (base:'b) (xs : 'a list) : 'b =
+  match xs with
+    | [] -> base
+    | hd :: tl -> f hd (reduce f base tl)
+;;
+
+let rec few_divisors (n:int) (m:int) : bool =
+  if n <= 0 || m < 0 then bad_divisors n m 
+  else 
+    let num_of_divisors x = 
+      let iterators =  generate_list 0 x in
+      let reduce_list = reduce (fun i b -> if x mod i = 0 then i :: b else b) [] iterators in
+      List.length reduce_list
+    in
+      num_of_divisors n < m
+;;
+
 
 (* After the implementation, test your code with
  * following assertions.
@@ -253,23 +275,12 @@ let bad_arg (n:int) = raise (BadArg n);;
 
 (* Your code should replace undefined (). *)
 
-let rec sin_pi (n:int) : float =
-  if n < 0 then bad_arg n
-  else
-    let rec aux i = 
-      if i = 0  then 3.0
-      else aux (i - 1) +. sin(aux (i - 1))
-    in
-      aux n
-;;
-let rec sin_pi (n:int) : float =
-  if n < 0 then bad_arg n
-  else
-    let rec aux i = 
-      if i = 0  then 3.0
-      else aux (i - 1) +. sin(aux (i - 1))
-    in
-      aux n
+let sin_pi (n: int) : float =
+  let rec approx i =
+    if i = 0 then 3. 
+    else approx (i - 1) +. sin (approx (i - 1))
+  in
+  if n > 0 then approx n else bad_arg n
 ;;
 
 (* After the implementation, test your code with
@@ -384,8 +395,12 @@ let rec monte_pi (n:int) : float =
 
 (* 7.a. Briefly explain your algorithm and your sources in the string exp7a. *)
 (* Your code should replace undefined (). *)
-let exp7a : string = undefined ();;
-
+let exp7a : string = "In this question, I use The Gregory–Leibniz series algorithm
+                      This algorithm is to compute the power series arctan(x) specialized to x = 1.
+                      with the formula -> pi = 4 * summation from k = 0 to n with ((-1) ^ k) / (2n + 1)
+                      Sources 1: https://en.wikipedia.org/wiki/Approximations_of_π
+                      Sources 2: https://en.wikipedia.org/wiki/Leibniz_formula_for_π
+                      ";;
 
 (* 7.b. Implement your algorithm, i.e. the your_pi function.
  * 
