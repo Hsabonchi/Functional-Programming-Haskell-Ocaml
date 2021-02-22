@@ -435,9 +435,9 @@ let rec your_pi (n:int) : float =
 (* After the implementation, figure out at least three test cases
  * excluding non-positive arguments. *)
 (* Your code should replace ??? *)
-assert (your_pi ??? = ???);;
-assert (your_pi ??? = ???);;
-assert (your_pi ??? = ???);;
+assert (your_pi 2 = 3.46666666666666679);;
+assert (your_pi 33 = 3.11218724269983404);;
+assert (your_pi 100000 = 3.14160265348979406);;
 (* MORE TEST CASES *)
 
 
