@@ -368,9 +368,21 @@ assert (sin_pi 3 = 3.1415926535897931);;
 Random.init 17;;
 
 let rec monte_pi (n:int) : float =
-  undefined ()
+  if n < 0 then bad_arg n
+  else
+    let rec aux n m =
+      match n with 
+        | 0 -> m
+        | _ ->
+            let x = Random.float 1. in
+            let y = Random.float 1. in
+            let distance = sqrt (x *. x +. y *. y) in
+            if distance <= 1.
+            then aux (n - 1) (m + 1)
+            else aux (n - 1) m
+    in
+      let m = aux n 0 in (float_of_int m) *. 4. /. (float_of_int n)  
 ;;
-
 
 
 
