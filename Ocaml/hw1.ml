@@ -168,7 +168,8 @@ let rec prob4b (x:float) (y:int) : float =
 (* Your code should replace undefined (). *)
 
 let exp4b : string = "prob4b didn't have the end point (base case) 
-                      for recursive function";;
+                      for recursive function which makes it goes for an infinite loop "
+                      ;;
  
  
 
