@@ -180,11 +180,12 @@ let exp4b : string = "prob4b didn't have the end point (base case)
  * the let expression for exp4c.
  *
  * If not possible, explain why it is impossible in the string exp4c
- * (replace undefined ()), and comment the let expression for forever. *)
-let rec forever (x:???) : ??? =
-  forever forever
-;;
-
+ * (replace undefined ()), and comment the let expression for forever.
+ 
+    let rec forever (x:???) : ??? =
+      forever forever
+    ;;
+ *)
 let exp4c : string = " This is impossible because the function will always have 
  * some output type, which cannot be included in the input type and thus
  * there is no set of types for which "forever forever" is valid.";;
