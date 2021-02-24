@@ -185,7 +185,9 @@ let rec forever (x:???) : ??? =
   forever forever
 ;;
 
-let exp4c : string = undefined ();;
+let exp4c : string = " This is impossible because the function will always have 
+ * some output type, which cannot be included in the input type and thus
+ * there is no set of types for which "forever forever" is valid.";;
 
 
 
