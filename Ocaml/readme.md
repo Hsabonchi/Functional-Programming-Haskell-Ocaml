@@ -12,6 +12,7 @@ Important Notes about Programming:
   - <strong> string_of_int </strong> converts an integer to a string value.
   - Underscore (_) is a wildcard that will match anything, useful as a default or when you just don’t care.
   - print_int, print_float,print_char,print_endline.
+  - 
 <br>
 <br>
 <br>
@@ -34,3 +35,4 @@ cornell 2014 (course) |[CS 3110 Spring 2014 ](https://www.cs.cornell.edu/courses
 Let Expressions|[Let Expressions , CS 3110 Spring 2014 ](LetExpressions.md)
 Type Inference|[Type Inference ](https://www.cs.cornell.edu/courses/cs3110/2016fa/l/17-inference/notes.html)
 Higher-order functions|[Higher-order functions](https://www.cs.cornell.edu/courses/cs3110/2017fa/l/06-hop/notes.html)
+Records| [Records](https://www.cs.cornell.edu/courses/cs3110/2014sp/recitations/2/tuples_records_data.html)
