@@ -24,3 +24,16 @@ k=2
 "a"::"b"::["d"] =["a";"b";"d"];;
 
 </pre>
+<br>
+
+let rec final (l: 'a list) : 'a option = 
+		match l with 
+		[]->None
+		|[x]->Some x
+		|_::t->final t
+	;;
+1-final["a"; "c"; "d"]
+2-final["c"; "d"]
+3-final["d"]
+
+<br>
