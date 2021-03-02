@@ -26,6 +26,9 @@ k=2
 </pre>
 <br>
 
+<pre>
+1f. Write a function that returns the final element of a list,  if it exists, and None otherwise.
+
 let rec final (l: 'a list) : 'a option = 
 		match l with 
 		[]->None
@@ -35,5 +38,5 @@ let rec final (l: 'a list) : 'a option =
 1-final["a"; "c"; "d"]
 2-final["c"; "d"]
 3-final["d"]
-
+</pre>
 <br>
