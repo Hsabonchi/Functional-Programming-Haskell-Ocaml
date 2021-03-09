@@ -21,3 +21,30 @@ let rec fold_right (f:'a -> 'b -> 'b) (xs:'a list) (base:'b) : 'b =
     
    fold_right (fun x acc -> x::acc  [1;2;3;4] [];;
   </pre>
+
+<pre>
+
+let rec fold_left (f:'b -> 'a -> 'b) (base:'b) (xs:'a list) : 'b =
+  match xs with
+      [] -> base
+    | hd::tail -> fold_left f (f base hd) tail
+;;
+  xs=[1;2;3;4]
+
+    (* from left to right *)
+
+    fold_left f   (f [] 1)    [2;3;4]
+                     [1]
+
+    fold_left f   (f [1] 2)    [3;4]
+                    [2; 1] 
+
+    fold_left f   (f [] 3)    [4]
+                   [3; 1; 2] 
+
+    fold_left f   (f [] 4)    []
+                   4::[3; 1; 2]
+
+    fold_left (fun x acc -> x::acc) xs []
+
+</pre>
